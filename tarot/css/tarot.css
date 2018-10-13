@@ -1,0 +1,117 @@
+body {
+       background-size: 100% 100%;
+       font-family: 'Lato', sans-serif;
+}
+h1 {
+      padding-top: 15px;
+      font-family: 'Berkshire Swash', cursive;
+      font-size: 70px;
+      text-align:center;
+      margin-bottom: 20px;
+}
+h2 {
+  font-family: 'Lato Black', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 1px;
+  margin-top: 4px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+.tarot {
+  margin: auto;
+  min-width: 900px;
+  width: 25%;
+}
+
+.cardContainer {
+  background: rgba(255, 255, 255, 0.8);
+  width: 150px;
+  height: 250px;
+  margin-right: 12px;
+  margin-left: 12px;
+  float: left;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.cardimg {
+  width:140px;
+  height:242px;
+  margin:5px;
+}
+
+.reversed {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.cardLabel {
+  background: rgba(255, 255, 255, 0.8);
+  width: 150px;
+  height: 80px;
+  padding-top:1px;
+  padding-bottom: 1px;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 12px;
+  float: left;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardSpacer {
+  width:15px;
+  float: left;
+}
+
+.cardSpread {
+  min-width: 900px;
+  width: 25%;
+  margin: 25px;
+  clear:both;
+}
+
+.btn {
+  color: black;
+  background: rgba(255, 255, 255, 0.95);
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.btn-two:hover {
+  background: rgba(255, 245, 225, 0.95);
+  cursor: pointer;
+}
+
+.btn-two:active {
+  background: rgba(255, 255, 225, 0.95);
+}
+#spread {
+  min-width: 900px;
+  width: 25%;
+  margin: 25px;
+  clear: both;
+  padding-top: 25px;
+}
+
+#story {
+  clear: both;
+  width: 844px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 10px;
+  padding: 10px;
+}
